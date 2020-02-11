@@ -1,0 +1,29 @@
+{
+  "name": "tractorstore",
+  "version": "1.0.0",
+  "description": "tractorstore integrated using links",
+  "main": "team-decide/product/porsche.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VamsiDevalla/TractorStore.git"
+  },
+  "keywords": [
+    "micro",
+    "front",
+    "ends",
+    "tractor",
+    "store"
+  ],
+  "author": "Vamsi Devalla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VamsiDevalla/TractorStore/issues"
+  },
+  "homepage": "https://github.com/VamsiDevalla/TractorStore#readme",
+  "dependencies": {
+    "@microfrontends/serve": "^11.2.2"
+  }
+}
