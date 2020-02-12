@@ -1,8 +1,42 @@
-* {}
-html {}
+.layout {
+    background-color: dimgray;
+}
 
-.layout {}
-.header {}
+.layout * {
+    background-color: #F6F5F3;
+    padding: 2%;
+    border-radius: 5px;
+}
 
-h2 {}
-.image {}
+.header {
+    grid-area: header;
+}
+
+.recos {
+    grid-area: recos;
+}
+
+.product {
+    grid-area: product;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 2% 66% 2% 28% 2%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        ". header header header ."
+        ". product . recos .";
+}
+
+.recos iframe {
+    border: 0;
+    height: 750px;
+    width: 96%;
+}
+
+img{
+    width: 96%;
+    height: 600px;
+    object-fit: contain;
+}
