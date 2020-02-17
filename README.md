@@ -10,3 +10,9 @@ To serve Team-Inspire project run: npx mfserve --listen 3001 team-inspire
 
 # Phase 2
 Integration of Team-Decide and Team-Inspire will be done using iframes instead of links. so that entire tractor store can be seen as one application.
+
+# Phase 3
+Integration of Team-Decide and Team-Inspire will be done using ajax instead of iFrames.
+
+# Team-Inspire: To avoid cor when team-decide requests for recommendations we should start our server to allow cors
+npx mfserve --listen 3002 --cors team-inspire
